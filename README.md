@@ -17,7 +17,7 @@ install cbElasticAPM
 
 It will kick in automatically.
 
-## Compatiblity
+## Compatibility
 
 This module currenlty only works on Lucee because Adobe still doesn't provide a way to dynamically load jars and I don't want to use javaloader.  
 If you need this to work on Adobe, let me know and I'll think about it :) 

@@ -7,11 +7,17 @@
         "type":"",
         "URL":"https://github.com/coldbox-modules/cbElasticAPM"
     },
-    "bugs":"",
     "slug":"cbElasticAPM",
     "shortDescription":"Adds support ColdBox apps to report their event name to Elastic APM",
     "type":"modules",
-    "keywords":"elastic,apm,cfml,coldfusion,server,monitor",
+    "keywords":[
+        "elastic",
+        "apm",
+        "cfml",
+        "coldfusion",
+        "server",
+        "monitor"
+    ],
     "scripts":{
         "postVersion":"publish"
     },
