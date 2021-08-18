@@ -1,0 +1,24 @@
+{
+    "name":"ColdBox Elastic APM",
+    "version":"1.0.0",
+    "author":"Brad Wood",
+    "homepage":"https://github.com/coldbox-modules/cbElasticAPM",
+    "repository":{
+        "type":"",
+        "URL":"https://github.com/coldbox-modules/cbElasticAPM"
+    },
+    "bugs":"",
+    "slug":"cbElasticAPM",
+    "shortDescription":"Adds support ColdBox apps to report their event name to Elastic APM",
+    "type":"modules",
+    "keywords":"elastic,apm,cfml,coldfusion,server,monitor",
+    "scripts":{
+        "postVersion":"publish"
+    },
+    "dependencies":{
+        "apm-agent-api-1.25.0":"jar:https://repo1.maven.org/maven2/co/elastic/apm/apm-agent-api/1.25.0/apm-agent-api-1.25.0.jar"
+    },
+    "installPaths":{
+        "apm-agent-api-1.25.0":"lib/apm-agent-api-1.25.0/"
+    }
+}
