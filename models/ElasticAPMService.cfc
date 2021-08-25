@@ -38,7 +38,6 @@ component accessors=true singleton {
 			return;
 		}
 		
-		systemoutput( 'Setting current event to #arguments.name#', 1 );
 		getElasticAPM().currentTransaction().setName( arguments.name );
 	}	
 	
