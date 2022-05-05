@@ -1,6 +1,6 @@
 {
     "name":"ColdBox Elastic APM",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "author":"Brad Wood",
     "homepage":"https://github.com/coldbox-modules/cbElasticAPM",
     "repository":{
@@ -22,9 +22,9 @@
         "postVersion":"publish"
     },
     "dependencies":{
-        "apm-agent-api-1.25.0":"jar:https://repo1.maven.org/maven2/co/elastic/apm/apm-agent-api/1.25.0/apm-agent-api-1.25.0.jar"
+        "apm-agent-api-1.30.0":"jar:https://repo1.maven.org/maven2/co/elastic/apm/apm-agent-api/1.30.0/apm-agent-api-1.30.0.jar"
     },
     "installPaths":{
-        "apm-agent-api-1.25.0":"lib/apm-agent-api-1.25.0/"
+        "apm-agent-api-1.30.0":"lib/apm-agent-api-1.30.0/"
     }
 }
